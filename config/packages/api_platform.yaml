@@ -4,14 +4,15 @@ api_platform:
   formats:
     json: ["application/json"]
     jsonld: ["application/ld+json"]
+    multipart: ["multipart/form-data"]
+  error_formats:
+    json: ["application/json"]
+    multipart: ["multipart/form-data"]
   docs_formats:
     json: ["application/json"]
     jsonld: ["application/ld+json"]
     jsonopenapi: ["application/vnd.openapi+json"]
     html: ["text/html"]
-  error_formats:
-    json: ["application/json"]
-    jsonld: ["application/ld+json"]
   defaults:
     stateless: true
     cache_headers:
